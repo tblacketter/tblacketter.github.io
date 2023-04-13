@@ -32,7 +32,7 @@ footer{
 }
 
 article ul{
-    list-style-image: url(/image/peaceSign.png);
+    list-style-image: url(../image/peaceSign.png);
 }
 
 #outerwrapper{
@@ -57,7 +57,7 @@ article{
 body{
     font-family: Arial, sans-serif;
     font-size: 1em;
-    background-image: url(/image/abstractPic.jpg);
+    background-image: url(../image/abstractPic.jpg);
     background-size: cover;
 }
 
