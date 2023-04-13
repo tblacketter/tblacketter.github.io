@@ -1,0 +1,39 @@
+/*
+Teryn Blacketter
+April 12, 2023
+*/
+header{
+    background-color: coral;
+}
+
+footer{
+    background-color: coral;
+}
+
+p{
+    font-size: 20pt;
+}
+
+ul{
+    font-size: 20pt;
+}
+
+li{
+    font-size: 20pt;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active{
+    color: black;
+}
