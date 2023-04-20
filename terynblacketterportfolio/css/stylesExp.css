@@ -1,0 +1,33 @@
+/*Teryn Blacketter 19 April, 2023*/
+.projects{
+    width: 90%;
+    margin: 0, auto;
+}
+
+.projectbox{
+    background-color: rgb(165, 165, 165);
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width: 31%;
+}
+
+footer{
+    clear: both;
+}
+
+.projectbox h2.year{
+    background: rgb(216, 68, 68);
+    color: black;
+    padding: 15px;
+}
+
+div.githublink{
+    clear: both;
+    padding: 5px;
+}
+
+div.githublink a{
+    text-decoration: none;
+}
