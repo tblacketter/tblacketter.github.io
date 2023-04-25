@@ -1,0 +1,79 @@
+/*Teryn Blacketter 19 April, 2023*/
+
+.outerwrapper{
+    width: 70%;
+    margin: 0 auto; 
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+a.logo{
+    display: flex;
+    height: 80px;
+    padding: 5px;
+}
+
+.button{
+    
+    display: flex;
+    background: #ed4747;
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 200px;
+    justify-content: center;   
+}
+
+header{
+    background-color: black;
+}
+
+.index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+}
+
+input{
+    background-color: lightgray;
+}
+
+textarea{
+    background-color: lightgray;
+}
+
+.button:hover{
+    background: #f07676;
+}
+
+h1{
+    text-align: center;
+}
+
+ img{
+    display: flex;
+    justify-content: center;
+}
