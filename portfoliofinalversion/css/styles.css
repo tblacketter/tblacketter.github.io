@@ -11,14 +11,11 @@ body{
 }
 
 a.logo{
-    display: flex;
     height: 80px;
     padding: 5px;
 }
 
-.button{
-    
-    display: flex;
+.button{ 
     background: #ed4747;
     border: 2px solid black;
     color: black;
@@ -28,8 +25,16 @@ a.logo{
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
-    width: 200px;
-    justify-content: center;   
+    width: 200px; 
+}
+
+nav > *{
+    flex: 1;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
 }
 
 header{
@@ -37,16 +42,10 @@ header{
 }
 
 .index{
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-}
-
-main{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    flex: 1;
 }
 
 footer{
