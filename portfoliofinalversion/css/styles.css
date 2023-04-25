@@ -8,10 +8,10 @@
 body{
     background-color: gray;
     margin: 0;
+    width: 100%;
 }
 
-a.logo{
-    height: 80px;
+.logo{
     padding: 5px;
 }
 
@@ -19,13 +19,12 @@ a.logo{
     background: #ed4747;
     border: 2px solid black;
     color: black;
-    padding: 20px;
-    margin: 10px;
     border-radius: 15px;
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
-    width: 200px; 
+    margin: 5px;
+    padding: 10px; 
 }
 
 nav > *{
@@ -35,10 +34,14 @@ nav > *{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
 }
 
 header{
     background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .index{
@@ -54,6 +57,15 @@ footer{
     justify-content: center;
     padding: 10px;
     background-color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+}
+
+main{
+    margin-top: 140px;
+    margin-bottom: 100px;
 }
 
 input{
@@ -72,7 +84,8 @@ h1{
     text-align: center;
 }
 
- img{
-    display: flex;
-    justify-content: center;
+.logo > img{
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
 }
