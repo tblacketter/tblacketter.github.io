@@ -29,6 +29,15 @@ table{
 
 th{
     font-weight: bold;
+    border: 2px solid black;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid black;
 }
 
 .gitbutton{

@@ -69,6 +69,18 @@ main{
     margin-bottom: 100px;
 }
 
+main h1{
+    font-size: 3em;
+}
+
+main h2{
+    font-size: 2.5em;
+}
+
+main p{
+    font-size: 2em;
+}
+
 input{
     background-color: lightgray;
 }
