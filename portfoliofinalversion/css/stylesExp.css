@@ -9,20 +9,14 @@
 .box{
     background-color: rgb(138, 136, 136);
     border: 1px solid black;
-    margin: 5px;
+    margin: px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .box img{
     height: 100px;
     width: 200px;
-}
-
-div.githublink{
-    padding: 5px;
-}
-
-div.githublink a{
-    text-decoration: none;
+    margin: 0 15px 15px 15px;
 }
 
 table{
@@ -31,4 +25,25 @@ table{
     font-size: 2em;
     background-color: lightgray;
     border: 2px solid black;
+}
+
+th{
+    font-weight: bold;
+}
+
+.gitbutton{
+    background: rgb(88, 194, 88);
+    border: 2px solid black;
+    color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px; 
+    text-align: center;
+}
+
+.gitbutton:hover{
+    background: rgb(173, 236, 173);
 }
