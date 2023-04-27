@@ -5,3 +5,13 @@ input{
 textarea{
     background-color: lightgray;
 }
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 2em;
+}
+label{
+    font-size: 1.5em;
+}

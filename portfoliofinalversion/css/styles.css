@@ -53,20 +53,35 @@ header{
 }
 
 footer{
-    display: flex;
-    align-content: center;
+    margin: 0 auto;
+    align-items: center;
     justify-content: center;
     padding: 10px;
     background-color: black;
     width: 100%;
-    flex-wrap: wrap;
+    text-align: center;
     position: fixed;
     bottom: 0;
 }
 
+footer p{
+    color: lightgray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f07676;
+}
+
+footer p a:hover{
+    color: #ed4747;
+}
+
 main{
     margin-top: 140px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 main h1{
@@ -75,9 +90,23 @@ main h1{
 
 main h2{
     font-size: 2.5em;
+    text-align: center;
 }
 
 main p{
+    font-size: 2em;
+}
+
+main img{
+    display: block;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 2.3em;
+}
+
+li p{
     font-size: 2em;
 }
 
