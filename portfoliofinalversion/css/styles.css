@@ -1,5 +1,14 @@
 /*Teryn Blacketter 19 April, 2023*/
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .outerwrapper{
     width: 70%;
     margin: 0 auto; 
@@ -26,6 +35,7 @@ body{
     margin: 5px;
     padding: 10px; 
     text-align: center;
+    font-family: 'Roboto', 'Times New Roman', Times;
 }
 
 nav > *{
@@ -60,14 +70,13 @@ footer{
     background-color: black;
     width: 100%;
     text-align: center;
-    position: fixed;
-    bottom: 0;
 }
 
 footer p{
     color: lightgray;
     text-align: center;
     margin-top: 5px;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 footer p a{
@@ -86,15 +95,18 @@ main{
 
 main h1{
     font-size: 3em;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 main h2{
     font-size: 2.5em;
     text-align: center;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 main p{
     font-size: 2em;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 main img{
@@ -104,10 +116,7 @@ main img{
 
 li{
     font-size: 2.3em;
-}
-
-li p{
-    font-size: 2em;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 .button:hover{

@@ -25,6 +25,7 @@ table{
     background-color: lightgray;
     border: 2px solid black;
     border-collapse: collapse;
+    font-family: "Quicksand", 'Times New Roman', Times;
 }
 
 th{
