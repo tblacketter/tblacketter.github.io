@@ -65,11 +65,12 @@ header{
 footer{
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     background-color: black;
     width: 100%;
     text-align: center;
+    position: fixed;
+    bottom: 0;
 }
 
 footer p{
@@ -90,7 +91,7 @@ footer p a:hover{
 
 main{
     margin-top: 140px;
-    margin-bottom: 140px;
+    margin-bottom: 200px;
 }
 
 main h1{
