@@ -51,8 +51,6 @@ nav{
 header{
     background-color: black;
     width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 .index{
@@ -69,11 +67,9 @@ footer{
     background-color: black;
     width: 100%;
     text-align: center;
-    position: fixed;
-    bottom: 0;
 }
 
-footer p{
+footer p {
     color: lightgray;
     text-align: center;
     margin-top: 5px;
