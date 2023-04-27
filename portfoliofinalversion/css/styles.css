@@ -88,7 +88,7 @@ footer p a:hover{
 
 main{
     min-height: 100vh;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
 }
 
 main h1{
@@ -113,7 +113,7 @@ main img{
 }
 
 .push{
-    height: 150px;
+    height: 200px;
 }
 
 li{
