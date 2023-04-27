@@ -91,6 +91,7 @@ textarea{
 
 .button:hover{
     background: #f07676;
+    cursor: pointer;
 }
 
 h1{
@@ -98,7 +99,7 @@ h1{
 }
 
 .logo > img{
-    width: 100%;
+    width: auto;
     max-width: 150px;
     min-width: 100px;
 }
