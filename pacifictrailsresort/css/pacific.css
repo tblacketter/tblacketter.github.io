@@ -3,7 +3,6 @@
 */
 /*************************** Mobile ***************************/
 
-
 img{
 	display: none;
 }
@@ -16,27 +15,6 @@ ul{
 	display: block;
 }
 
-
-
-/*************************** Tablet ***************************/	
-@media screen and (min-width:641px) {
-
-	img{
-		display: block;
-		max-width: 100%;
-	}
-
-	nav ul li{
-		display: inline;
-	}
-
-	h2{
-		display: block;
-		color: #3399CC; 
-		font-family: Georgia, 'Times New Roman', serif; 
-	}
-}
-	
 body 
 { 
 	background-color: #FFFFFF;
@@ -111,3 +89,23 @@ dt
 { 
 	font-size: 90%; 
 }
+
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px) {
+
+	img{
+		display: block;
+		max-width: 100%;
+	}
+
+	nav ul li{
+		display: inline;
+	}
+
+	h2{
+		display: block;
+		color: #3399CC; 
+		font-family: Georgia, 'Times New Roman', serif; 
+	}
+}
+	
