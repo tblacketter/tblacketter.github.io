@@ -1,0 +1,102 @@
+<!doctype html>    
+<!--Teryn Blacketter
+    19 April, 2023 -->
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Conctact page for Teryn Blacketter" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/stylesCont.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="index">
+                <a href="index.html" class="logo"><img src="image/portfolioLogo.svg" alt="TMB Logo"></a>
+                <a class="button" href="index.html">Home</a>
+                <a class="button" href="about.html">About</a>
+                <a class="button" href="experience.html">Experience</a>
+                <a class="button" href="contact.html">Contact</a>
+                <a class="button" href="feedback.html">Feedback</a>
+            </nav>
+        </header>
+        
+        <div class="outerwrapper">
+            <main>
+            <h2>How should I contact you?</h2>
+            <form action="mailto:terynblacketter@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                <!-- Group Fields Together, page 104 -->
+                <fieldset>
+                <legend>Conact Form:</legend>
+                    <!-- Company Select Box, page 97 -->
+                    <label for="company_name">Company:</label> <br>
+                    <input type="text" name="company_name" id="company_name" size="50">
+                    <div>
+        
+                    </div>
+                    <!-- Person to Contact Select Box, page 97 -->
+                    <label for="person_to_contact">Person to contact:</label> <br>
+                    <input type="text" name="person_to_contact" id="person_to_contact">
+                    <div>
+        
+                    </div>
+                    <!-- Email, textbook file rental.html -->	
+                    <!--Video 9.9 Building and Testing a Valid Form-->
+                    <label for="email-address"> Email:</label>
+                    <input type="email" placeholder="Email" name="email_address" id="email-address" required>	
+                    <div>
+        
+                    </div>
+                    <!-- Phone, textbook file rental.html-->
+                    <!--Video 9.9 Building and Testing a Valid Form-->
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="text" name="phone_number" id="phone_number" placeholder="000-000-0000" required>
+                    <div>
+        
+                    </div>
+                </fieldset>
+        
+                <!-- Group Fields Together, page 104 -->
+                <fieldset>
+                    <legend>What opportunities are available at your company?</legend>
+                    <!-- Select Box, page 98 -->
+                    <label for="position_selectbox">Type of Postion:</label>
+                    <select name="position_selectbox" id="position_selectbox">
+                        <option value="Internship">Internship</option>
+                        <option value="Part-Time">Part-time</option>
+                        <option value="Full-Time">Full-Time</option>
+                        <option value="Contract">Contract</option>
+                        <option value="Temporary">Temporary</option>
+                        <option value="On call">On call</option>
+                    </select>
+                    <!-- Radio Buttons, page 99 -->
+                    <p>How did you find me?</p>
+                    <input type="radio" name="how_did_you_find_me" id="linkedin" value="LinkedIn"> <label for="linkedin">LinkedIn</label>
+                    <input type="radio" name="how_did_you_find_me" id="jobfair" value="Job Fair"> <label for="jobfair">Job Fair</label>
+                    <input type="radio" name="how_did_you_find_me" id="cwicorporatepartner" value="CWI Corparate Partner"> <label for="cwicorporatepartner">CWI Corporate Partner</label>
+                    <div>
+                        <!-- Text Area, textbook file code-9-1.html -->	
+                        <textarea name="commentbox" id="commentbox" placeholder="How should I prepare for the interview?" cols="100" rows="10"></textarea>
+        
+                    </div>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="button">
+             </form>   
+            </main>
+        </div>
+        <div class="push"></div>
+
+        <footer>
+            <p>Contact Me by Phone: <a href="tel:+12085149071">208-514-9071</a> <br>
+                or Email: <a href="mailto:terynblacketter@my.cwi.edu">terynblacketter@my.cwi.edu</a> <br>
+            </p>
+            <a target ="_blank" href ="https://www.linkedin.com/"><img src="image/linkedinicon.png" alt="linked in icon link"></a> and   
+            <a target ="_blank" href="https://github.com/tblacketter/tblacketter.github.io"><img src="image/githubicon.png" alt="github icon link"></a>
+        </footer>
+    </body>
+    
+</html>  
