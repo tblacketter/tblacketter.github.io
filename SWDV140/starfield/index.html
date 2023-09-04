@@ -1,0 +1,66 @@
+<!doctype html>   
+
+<!----------------------------------------------------------------------------------------------------------------
+    **Modification Log**
+
+#Original Author: Teryn Blacketter                                     
+#Date Created: 8/31/2023                                        
+#Version: 0.0                                                 
+#Date Last Modified: 09/03/2023                               
+#Modified by: Teryn Blacketter                                          
+#Modification log:                                    
+ 
+        Version 0.0 - 08/31/2023 - Created essential files and folders. Started modifcation log. Created the basic navigation structure and applied CSS file/JS file.
+        Version 0.1 - 09/03/2023 - Added two banners to main and linked to the JS file. Also added a temporary footer
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+    
+    <head>
+        <title>Index</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Starfield" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
+                    <a href="index.html" class ="button">Home</a>
+                    <a href="index.html" class ="button">Information</a>
+                    <a href="index.html" class ="button">Contact</a>
+                    <a href="index.html" class ="button">About</a>
+                </nav>
+        </header>
+    
+        <main>
+            <!--Star map image with star icons that have interactivity-->
+            <div class="banner" id="mainBanner"> <!--Opening display message with a button that triggers star creation-->
+                <h1>Welcome to Starfield!</h1> 
+                <h3>Click the button to get started</h3>
+                <button class="button" onclick="generate()">Generate</button>
+                <p><p>
+            </div>
+
+            <div class="banner" id="starBanner">
+                <h2>Here you can browse any available star to see information and maybe purchase one of your liking!</h2>
+                <h3>Click the button when you are ready to browse!</h3>
+                <button class="button" onclick="hideContent()">Ready</button>
+                <p></p>
+            </div>
+        </main>
+
+        <footer>
+            <!--Website details-->
+            <p>This is the temp footer</p>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>
