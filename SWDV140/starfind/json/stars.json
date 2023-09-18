@@ -1,0 +1,77 @@
+{
+    "stars": [
+      {
+        "name": "Sun",
+        "type": "G-type main-sequence star",
+        "description": "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. The Sun is a G-type main-sequence star and comprises about 99.86% of the mass of the Solar System.",
+        "price": 1000000
+      },
+      {
+        "name": "Proxima Centauri",
+        "type": "Red dwarf star",
+        "description": "Proxima Centauri is the closest known star to the Sun. It is a red dwarf star located in the constellation of Centaurus.",
+        "price": 5000
+      },
+      {
+        "name": "Betelgeuse",
+        "type": "Red supergiant star",
+        "description": "Betelgeuse is one of the largest stars known. It is a red supergiant star in the constellation of Orion and is expected to go supernova in the future.",
+        "price": 20000
+      },
+      {
+        "name": "Sirius",
+        "type": "A-type main-sequence star",
+        "description": "Sirius is the brightest star in the night sky. It is a binary star system consisting of a main-sequence star (Sirius A) and a white dwarf (Sirius B).",
+        "price": 30000
+      },
+      {
+        "name": "Alpha Centauri",
+        "type": "Binary star system",
+        "description": "Alpha Centauri is a binary star system that is the closest known star system to the Solar System. It consists of three stars: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri.",
+        "price": 8000
+      },
+      {
+        "name": "Vega",
+        "type": "A-type main-sequence star",
+        "description": "Vega is the brightest star in the constellation of Lyra. It is an A-type main-sequence star and one of the most studied stars outside the Solar System.",
+        "price": 25000
+      },
+      {
+        "name": "Polaris",
+        "type": "Cepheid variable star",
+        "description": "Polaris, also known as the North Star, is a Cepheid variable star located close to the north celestial pole. It has been used for navigation for centuries.",
+        "price": 15000
+      },
+      {
+        "name": "Antares",
+        "type": "Red supergiant star",
+        "description": "Antares is a red supergiant star in the constellation of Scorpius. It is one of the brightest stars in the nighttime sky and appears reddish in color.",
+        "price": 18000
+      },
+      {
+        "name": "Rigel",
+        "type": "B-type main-sequence star",
+        "description": "Rigel is the brightest star in the constellation of Orion. It is a blue-white B-type main-sequence star and one of the most luminous stars known.",
+        "price": 28000
+      },
+      {
+        "name": "Deneb",
+        "type": "A-type supergiant star",
+        "description": "Deneb is one of the brightest stars in the constellation of Cygnus. It is an A-type supergiant star and is part of the Northern Cross asterism.",
+        "price": 35000
+      },
+      {
+        "name": "Altair",
+        "type": "A-type main-sequence star",
+        "description": "Altair is one of the stars that form the Summer Triangle. It is an A-type main-sequence star located in the constellation of Aquila.",
+        "price": 30000
+      },
+      {
+        "name": "Arcturus",
+        "type": "K-type giant star",
+        "description": "Arcturus is the brightest star in the constellation of Booötes. It is a K-type giant star and one of the most prominent stars in the northern hemisphere.",
+        "price": 22000
+      }
+    ]
+  }
+  

@@ -1,14 +1,14 @@
 /*********************************************************************
 ***
 *Original Author: Teryn Blacketter                                   
-*Date Created: 8/31/2023                                      
+*Date Created: 09/16/2023                                      
 *Version: 0.0                                               
-*Date Last Modified: 09/03/2023                             
+*Date Last Modified: 09/17/2023                             
 *Modified by: Teryn Blacketter                                         
 *Modification log:                                  
 ***
-        Version 0.0 - Created base element tags body, header, footer, main and styled them accordingly. Created the button class styling and interactivity.
-        Version 0.1 - Worked on Mobile first developement by having the image swap to fit better on a smaller device(Work in Progress). Added the starBanner ID and made it apper hidden until the script runs.  
+        Version 0.0 - Created the file and added the css to match the theme of the website 
+        Version 0.1 - Added more css for the faqs and newsletter portions so the followed the website theme
 
 ******************************************************************** */
 
@@ -31,11 +31,19 @@ header{
 main{
     text-align: center;
     color: white;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #252629;
+    padding: 5px;
+    max-width: 70%;
+    align-self: center;
+    border: 5px solid black;
+    border-radius: 4px;
 }
 
 footer{
-    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #252629;
@@ -43,7 +51,7 @@ footer{
     border-style: solid;
 }
 
-footer p{
+footer h2{
     text-align: center;
     color: white;
 }
@@ -77,15 +85,60 @@ nav a{
     cursor: pointer;
 }
 
-.banner{
-    background-color: #252629;
-    border-color: black;
-    border-style: solid;
+form{
+    color: black;
+    background-color: gray;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    align-content: left;
+    text-align: left;
+    border: 3px solid black;
 }
 
-#starBanner{
+form div{
+    padding: 5px;
+}
+
+form #contact_buttons{
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+#faqs{
+    color: black;
+    background-color: gray;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#faqs h2{
+    cursor: pointer;
+}
+
+#faqs a{
+    text-decoration: none;
+    color: black;
+}
+
+#faqs a:focus, #faqs a:hover { 
+	color: white; 
+}
+
+#faqs div {
     display: none;
 }
+#faqs div.open {
+    display: block;
+}
+
 
 /*************************** Tablet ***************************/	
 @media screen and (min-width:480px) {

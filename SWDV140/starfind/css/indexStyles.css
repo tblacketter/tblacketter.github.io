@@ -1,0 +1,111 @@
+/*********************************************************************
+***
+*Original Author: Teryn Blacketter                                   
+*Date Created: 8/31/2023                                      
+*Version: 0.0                                               
+*Date Last Modified: 09/03/2023                             
+*Modified by: Teryn Blacketter                                         
+*Modification log:                                  
+***
+        Version 0.0 - Created base element tags body, header, footer, main and styled them accordingly. Created the button class styling and interactivity.
+        Version 0.1 - Worked on Mobile first developement by having the image swap to fit better on a smaller device(Work in Progress). Added the starBanner ID and made it apper hidden until the script runs.  
+
+******************************************************************** */
+
+/*************************** Mobile ***************************/
+
+body{
+    background-image: url(../media/mobileStarmap.jpg); 
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #252629;
+    border-color: black;
+    border-style: solid;
+}
+
+main{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #252629;
+    border-color: black;
+    border-style: solid;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a{
+    display: block;
+    margin: .5em;
+}
+
+.button{
+    background-color: black; /* Black */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.banner{
+    background-color: #252629;
+    border-color: black;
+    border-style: solid;
+}
+
+#starBanner{
+    display: none;
+}
+
+/*************************** Tablet ***************************/	
+@media screen and (min-width:480px) {
+
+
+}
+
+/*************************** Computer - Laptop ***************************/
+
+@media screen and (min-width:800px) {
+body{
+    background-image: url(../media/starmap.jpg);
+}
+
+}
+
+/*************************** Computer - Desktop ***************************/
+
+@media screen and (min-width:1024px) {
+
+
+
+}

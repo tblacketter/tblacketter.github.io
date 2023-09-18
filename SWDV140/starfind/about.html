@@ -1,0 +1,119 @@
+<!doctype html>   
+
+<!----------------------------------------------------------------------------------------------------------------
+    **Modification Log**
+
+#Original Author: Teryn Blacketter                                     
+#Date Created: 09/14/2023                                        
+#Version: 0.1                                                 
+#Date Last Modified: 09/15/2023                               
+#Modified by: Teryn Blacketter                                          
+#Modification log:                                    
+ 
+        Version 0.0 - 09/14/2023 - Created the base file and linked it to the other pages
+        Version 0.1 - 09/15/2023 - Wrote some basic information about me and the site, added a form for a newsletter signup and added a FAQS 
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+    
+    <head>
+        <title>About</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Starfind" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/aboutStyles.css">
+        <link rel="shortcut icon" type="image/jpg" href="media/favicon/favicon-16x16.png">
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
+                    <a href="index.html" class ="button">Home</a>
+                    <a href="index.html" class ="button">Information</a>
+                    <a href="contact.html" class ="button">Contact</a>
+                    <a href="about.html" class ="button">About</a>
+                </nav>
+        </header>
+    
+        <main>
+            <h1>About Starfind</h1>
+            <h2>Hello visitors! My name is Teryn and I am the creator of this site. 
+                I created Starfind as a school project for my Software Development class. 
+                I have always been enthralled with space and its many mysteries 
+                so I figured I would theme my site around my curiosity and intrigue.
+                I hope you enjoy it and thanks for visiting!
+            </h2>
+
+            <!--FAQS for starfind-->
+            <div id="faqs">
+                <h1>Starfind FAQs</h1>
+
+                <h2><a href="#">What is Starfind?</a></h2>
+                <div>
+                    <p>Starfind is a website that allows user to search for and buy various stars found on the starmap. Each star is based on an existing known star, however their locations are not accurate.
+                    </p>
+                </div>
+
+                <h2><a href="#">Why Starfind?</a></h2>
+                <div>
+                    <p>Starfind is an interactive experience that brings information about known stars and combines that into a game like simulation. The whole point is to learn and have fun!</p>
+                </div>
+
+                <h2><a href="#">What led to the idea behind Starfind?</a></h2>
+                <div>
+                    <p>
+                        My love for space and games! 
+                    </p>
+                </div>
+            </div>
+
+            <!--Newsletter signup form-->
+            <h2>Enter your info below if you would like to recieve a newsletter about updates to the site!</h2>
+            <form action="confirm.html" method="get">
+
+                <div>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+                    <span>*</span>
+                </div>
+
+                <div>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+
+                <div>
+                    <label for="email_address">E-Mail:</label>
+                    <input type="text" name="email_address" id="email_address">
+                    <span>*</span>
+                </div>
+
+                <div>
+                    <label>Terms of Service:</label>
+                    <input type="checkbox" name="terms" id="terms" value="yes">I accept
+                    <span>*</span>    
+                </div>
+
+                <div id="contact_buttons">
+                    <label>&nbsp;</label>
+                    <input type="button" id="register" value="Register">
+                    <input type="button" id="reset_form" value="Reset">
+                </div>  
+
+            </form>
+            
+        </main>
+
+        <footer>
+            <!--Website details-->
+            <h2>Starfind</h2>
+        </footer>
+
+        <script src="js/aboutScripts.js"></script>
+    </body>
+
+</html>

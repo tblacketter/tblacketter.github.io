@@ -12,6 +12,7 @@
 
 
 ******************************************************************** */
+"use strict";
 
 //Gathers user input for number of stars, hides the opening text, sends data to createStar function
 function generate(){

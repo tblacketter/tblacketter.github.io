@@ -5,13 +5,14 @@
 
 #Original Author: Teryn Blacketter                                     
 #Date Created: 8/31/2023                                        
-#Version: 0.0                                                 
+#Version: 0.2                                                 
 #Date Last Modified: 09/03/2023                               
 #Modified by: Teryn Blacketter                                          
 #Modification log:                                    
  
         Version 0.0 - 08/31/2023 - Created essential files and folders. Started modifcation log. Created the basic navigation structure and applied CSS file/JS file.
         Version 0.1 - 09/03/2023 - Added two banners to main and linked to the JS file. Also added a temporary footer
+        Version 0.2 - 09/15/2023 - Updated the name of website to Starfinder added links to about and contact, added links to new script and css files indexScript.js, indexStyles.css also added Favicon to webpage
 ------------------------------------------------------------------------------------------------------------------>
 
 <html lang="en">
@@ -19,11 +20,12 @@
     <head>
         <title>Index</title>
         <meta name="author" content ="Teryn Blacketter">
-        <meta name="description" content="Starfield" >
+        <meta name="description" content="Starfind" >
         <meta charset="UTF-8" >
         <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/indexStyles.css">
+        <link rel="shortcut icon" type="image/jpg" href="media/favicon/favicon-16x16.png">
     </head>
 
     <body>
@@ -33,15 +35,15 @@
                     <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
                     <a href="index.html" class ="button">Home</a>
                     <a href="index.html" class ="button">Information</a>
-                    <a href="index.html" class ="button">Contact</a>
-                    <a href="index.html" class ="button">About</a>
+                    <a href="contact.html" class ="button">Contact</a>
+                    <a href="about.html" class ="button">About</a>
                 </nav>
         </header>
     
         <main>
             <!--Star map image with star icons that have interactivity-->
             <div class="banner" id="mainBanner"> <!--Opening display message with a button that triggers star creation-->
-                <h1>Welcome to Starfield!</h1> 
+                <h1>Welcome to Starfind!</h1> 
                 <h3>Click the button to get started</h3>
                 <button class="button" onclick="generate()">Generate</button>
                 <p><p>
@@ -57,10 +59,10 @@
 
         <footer>
             <!--Website details-->
-            <p>This is the temp footer</p>
+            <h2>Starfind</h2>
         </footer>
 
-        <script src="js/scripts.js"></script>
+        <script src="js/indexScripts.js"></script>
     </body>
 
 </html>

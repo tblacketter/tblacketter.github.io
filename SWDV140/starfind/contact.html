@@ -1,0 +1,99 @@
+<!doctype html>   
+
+<!----------------------------------------------------------------------------------------------------------------
+    **Modification Log**
+
+#Original Author: Teryn Blacketter                                     
+#Date Created: 09/14/2023                                        
+#Version: 0.1                                                 
+#Date Last Modified: 09/15/2023                               
+#Modified by: Teryn Blacketter                                          
+#Modification log:                                    
+ 
+        Version 0.0 - 09/14/2023 - Created the initial file, linked it to the other pages and added code for a basic form
+        Version 0.1 - 09/15/2023 - Edited the form to only include the elements that were necessary
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+    
+    <head>
+        <title>Contact</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Starfind" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" type="image/jpg" href="media/favicon/favicon-16x16.png">
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
+                    <a href="index.html" class ="button">Home</a>
+                    <a href="index.html" class ="button">Information</a>
+                    <a href="contact.html" class ="button">Contact</a>
+                    <a href="about.html" class ="button">About</a>
+                    <link rel="stylesheet" href="css/contactSyles.css">
+                </nav>
+        </header>
+    
+        <main>
+
+            <h1>If would like us to reach out to you feel free to leave your information below!</h1>
+            <h2>(Only first name and email are required)</h2>
+
+            <form action="confirm.html" method="get">
+
+                <div>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+                    <span>*</span>
+                </div>
+
+                <div>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+
+                <div>
+                    <label for="email_address">E-Mail:</label>
+                    <input type="text" name="email_address" id="email_address">
+                    <span>*</span>
+                </div>
+
+                <div>
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+
+                <div>
+                    <label>Contact me by:</label>
+                    <input type="radio" name="contact" id="text"
+                        value="text" >Text
+                    <input type="radio" name="contact" id="email"
+                        value="email" checked>Email
+                    <input type="radio" name="contact" id="mobile_phone"
+                        value="mobile_phone">Mobile phone
+                </div>
+
+                <div id="contact_buttons">
+                    <label>&nbsp;</label>
+                    <input type="button" id="submitButton" value="Submit">
+                    <input type="button" id="reset_form" value="Reset">
+                </div>  
+
+            </form>
+        </main>
+
+        <footer>
+            <!--Website details-->
+            <h2>Starfind</h2>
+        </footer>
+
+        <script src="js/contactScripts.js"></script>
+    </body>
+
+</html>
