@@ -1,0 +1,138 @@
+/*********************************************************************
+***
+*Original Author: Teryn Blacketter                                   
+*Date Created: 09/29/2023                                      
+*Version: 0.1                                              
+*Date Last Modified: 10/01/2023                             
+*Modified by: Teryn Blacketter                                         
+*Modification log:                                  
+***
+        Version 0.0 - Added the styling for the slideshow and main
+        Version 0.1 - added the styling for the sources dropdown menu  
+
+******************************************************************** */
+
+/*************************** Mobile ***************************/
+
+body{
+    background-image: url(../media/mobileStarmap.jpg); 
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #252629;
+    border-color: black;
+    border-style: solid;
+}
+
+main{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    background-color: #252629;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-color: black;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #252629;
+    border-color: black;
+    border-style: solid;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a{
+    display: block;
+    margin: .5em;
+}
+
+.button{
+    background-color: black; /* Black */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+#star_slideshow img{
+    display: none;
+    max-height: 300px;
+    max-width: 500px;
+}
+
+#sources{
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+#sources div{
+    display: none;
+}
+
+#sources a{
+    text-decoration: none;
+    color: black;
+}
+
+#sources a:hover{
+    color: whitesmoke;
+}
+
+#sources ul{
+    list-style-type: none;
+}
+
+/*************************** Tablet ***************************/	
+@media screen and (min-width:480px) {
+
+
+}
+
+/*************************** Computer - Laptop ***************************/
+
+@media screen and (min-width:800px) {
+body{
+    background-image: url(../media/starmap.jpg);
+}
+
+}
+
+/*************************** Computer - Desktop ***************************/
+
+@media screen and (min-width:1024px) {
+
+
+
+}

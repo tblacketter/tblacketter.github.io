@@ -1,0 +1,103 @@
+<!doctype html>   
+
+<!----------------------------------------------------------------------------------------------------------------
+    **Modification Log**
+
+#Original Author: Teryn Blacketter                                     
+#Date Created: 09/29/2023                                       
+#Version: 0.1                                                
+#Date Last Modified: 09/29/2023                               
+#Modified by: Teryn Blacketter                                          
+#Modification log:                                    
+ 
+        Version 0.0 - 09/29/2023 - created the html file, wrote the html for the slideshow and added the image tags to the stars for the show
+        Version 0.1 - 10/01/2023 - created the sources id and added all relevant source information and links
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+    
+    <head>
+        <title>Index</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Starfind" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/informationStyles.css">
+        <link rel="shortcut icon" type="image/jpg" href="media/favicon/favicon-16x16.png">
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
+                    <a href="index.html" class ="button">Home</a>
+                    <a href="information.html" class ="button">Information</a>
+                    <a href="contact.html" class ="button">Contact</a>
+                    <a href="about.html" class ="button">About</a>
+                </nav>
+        </header>
+    
+        <main>
+            <h1>Star Information</h1>
+            <h3>*Some of the images are virtually created others are real</h3>
+            
+            <img id="slide" src="media/starImages/atypemainsequencestar.jpg" alt="A Type Star">
+            <div id="star_slideshow">
+                <img src="media/starImages/atypemainsequencestar.jpg" alt="A Type Star">
+                <img src="media/starImages/binarystar.jpg" alt="Binary Star">
+                <img src="media/starImages/btypestar.jpg" alt="B Type Star">
+                <img src="media/starImages/cepheidstar.jpg" alt="Cepheid Star">
+                <img src="media/starImages/ktypestar.jpg" alt="K Type Star">
+                <img src="media/starImages/reddwarfstar.jpg" alt="Red Dwarf Star">
+                <img src="media/starImages/redsupergiantstar.jpg" alt="Red Super Giant Star">
+            </div>
+
+            <h2 id="caption">A type star</h2>
+
+            
+            <div id="sources">
+                <h1>Sources</h1>
+
+                <h2><a href="#">European Southern Observatory</a></h2>
+                <div id="eso">
+                    <ul>
+                        <li>Binary Star</li>
+                        <li>Red Super Giant Star</li>
+                        <li><a href="https://www.eso.org/public/">https://www.eso.org/public/</a></li>
+                    </ul>
+                </div>
+
+                <h2><a href="#">Creative Commons</a></h2>
+                <div id="cc">
+                    <ul>
+                        <li>Red Dwarf Star</li>
+                        <li>B Type Star - Merikanto</li>
+                        <li>K Type Star - Celestia</li>
+                        <li>A Type Star - KKolaczynski</li>
+                        <li><a href="https://commons.wikimedia.org/wiki/Main_Page">https://commons.wikimedia.org/wiki/Main_Page</a></li>
+                    </ul>
+                </div>
+
+                <h2><a href="#">NASA Hubble Space Telescope</a></h2>
+                <div id="nasa">
+                    <ul>
+                        <li>Cepheid Variable Star</li>
+                        <li><a href="https://www.nasa.gov/">https://www.nasa.gov/</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <!--Website details-->
+            <h2>Starfind</h2>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/informationScripts.js"></script>
+        
+    </body>
+
+</html>
