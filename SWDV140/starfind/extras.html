@@ -1,0 +1,84 @@
+<!doctype html>   
+<!----------------------------------------------------------------------------------------------------------------
+    **Modification Log**
+
+#Original Author: Teryn Blacketter                                     
+#Date Created: 10/05/2023                                        
+#Version: 0.0                                                 
+#Date Last Modified: 10/05/2023                               
+#Modified by: Teryn Blacketter                                          
+#Modification log:                                    
+ 
+        Version 0.0 - 10/05/2023 - Created the file 
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+    
+    <head>
+        <title>Index</title>
+        <meta name="author" content ="Teryn Blacketter">
+        <meta name="description" content="Starfind" >
+        <meta charset="UTF-8" >
+        <meta name="keywords" content="C# server-side HTML5 CSS3 client-side" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="css/extraStyles.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="shortcut icon" type="image/jpg" href="media/favicon/favicon-16x16.png">
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <a href="index.html" class="navLogo"><img src="media/favicon/favicon-32x32.png" alt="Star logo"></a>
+                    <a href="index.html" class ="button">Home</a>
+                    <a href="information.html" class ="button">Information</a>
+                    <a href="contact.html" class ="button">Contact</a>
+                    <a href="about.html" class ="button">About</a>
+                    <a href="extras.html" class="button">Roadmap</a>
+                </nav>
+        </header>
+    
+        <main>
+    
+            <h2>Progress Bar - Implemented in the furture</h2>
+            <div class = "progressBar"></div>
+            <button id="increase">Increase</button>
+            <button id="decrease">Decrease</button>
+            <h3>A progress bar will keep track of milestones for profit made from each Star</h3>
+
+    
+            <h2>Date Picker</h2>
+            <div class="datepicker"></div>
+            <h3>I plan on adding functionality to be able to view profits made during each day/month/year</h3>
+
+            <h2>Tabs UI will be used to store information about the user</h2>
+            <div id="tabs">
+                <ul>
+                  <li><a href="#fragment-1"><span>User</span></a></li>
+                  <li><a href="#fragment-2"><span>Stars</span></a></li>
+                  <li><a href="#fragment-3"><span>Stats</span></a></li>
+                </ul>
+                <div id="fragment-1">
+                    This user tab will hold information about the player and recent star purchases/sells
+                </div>
+                <div id="fragment-2">
+                    This tab will hold all the information about the stars that the user holds
+                </div>
+                <div id="fragment-3">
+                    This tab will hold the statistics on money earned and the charts associated
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!--Website details-->
+            <h2>Starfind</h2>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+        <script src="js/extraScipts.js"></script>
+    </body>
+
+</html>
