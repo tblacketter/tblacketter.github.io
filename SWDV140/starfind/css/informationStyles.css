@@ -83,18 +83,17 @@ nav a{
 
 #star_slideshow img{
     display: none;
-    max-height: 300px;
-    max-width: 500px;
 }
 
 #sources{
     background-color: gray;
     border-style: solid;
     border-color: black;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
     color: black;
+    width: 80%;
 }
 
 #sources div{
@@ -112,6 +111,11 @@ nav a{
 
 #sources ul{
     list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
 }
 
 /*************************** Tablet ***************************/	

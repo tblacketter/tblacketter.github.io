@@ -9,29 +9,46 @@
 ***
         Version 0.0 - Created base element tags body, header, footer, main and styled them accordingly. Created the button class styling and interactivity.
         Version 0.1 - Worked on Mobile first developement by having the image swap to fit better on a smaller device(Work in Progress). Added the starBanner ID and made it apper hidden until the script runs.  
+        version 0.2 - Changed the navigation bar to resize 
 
 ******************************************************************** */
 
 /*************************** Mobile ***************************/
 
 body{
-    background-image: url(../media/mobileStarmap.jpg); 
+    background-image: url(../media/alternatestarmap2.jpg); 
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header{
     background-color: #252629;
     border-color: black;
     border-style: solid;
+    display: flex;
+    align-content: center;
 }
 
 main{
     text-align: center;
     color: white;
     margin: 10px;
+}
+
+h1{
+    font-size: 1em;
+}
+
+h2 {
+    font-size: .8em;
+}
+
+h3{
+    font-size: .6em;
 }
 
 footer{
@@ -49,10 +66,11 @@ footer h2{
 }
 
 nav{
-    display: flex;
-    justify-content: left;
+    justify-self: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a{
@@ -64,11 +82,11 @@ nav a{
     background-color: black; /* Black */
     border: none;
     color: whitesmoke;
-    padding: 15px 32px;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     border-radius: 8px;
 }
 
@@ -90,22 +108,125 @@ nav a{
 /*************************** Tablet ***************************/	
 @media screen and (min-width:480px) {
 
+    .button{
+        background-color: black; /* Black */
+        border: none;
+        color: whitesmoke;
+        padding: 10px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+    
+    h2 {
+        font-size: 1.1em;
+    }
+    
+    h3{
+        font-size: .9em;
+    }
 
 }
 
 /*************************** Computer - Laptop ***************************/
 
 @media screen and (min-width:800px) {
-body{
-    background-image: url(../media/starmap.jpg);
-}
+
 
 }
 
 /*************************** Computer - Desktop ***************************/
 
 @media screen and (min-width:1024px) {
+    
+    header{
+        background-color: #252629;
+        border-color: black;
+        border-style: solid;
+        display: flex;
+        align-items: center;
+    }
+    
+    main{
+        text-align: center;
+        color: white;
+        margin: 10px;
+    }
+    
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #252629;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    footer h2{
+        text-align: center;
+        color: white;
+    }
+    
+    nav{
+        justify-self: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav a{
+        display: block;
+        margin: .5em;
+    }
+    
+    .navLogo {
+        justify-self: left;
+        margin: 5px;
+    }
+    
+    .button{
+        background-color: black; /* Black */
+        border: none;
+        color: whitesmoke;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    
+    .button:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+    
+    .banner{
+        background-color: #252629;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    #starBanner{
+        display: none;
+    }
 
-
+    h1{
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: .8em;
+    }
+    
+    h3{
+        font-size: .6em;
+    }
 
 }

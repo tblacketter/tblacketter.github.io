@@ -35,7 +35,8 @@ main{
     margin-right: 15%;
     margin-top: 10px;
     background-color: #252629;
-    padding: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
     max-width: 70%;
     align-self: center;
     border: 5px solid black;
@@ -88,21 +89,31 @@ nav a{
 form{
     color: black;
     background-color: gray;
-    max-width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    padding: 10px;
-    align-content: left;
+    padding: 20px;
+    align-content: center;
     text-align: left;
     border: 3px solid black;
 }
 
 form div{
     padding: 5px;
+    margin-bottom: 1em;
+}
+
+form label{
+    display: inline-block;
+    width: 10em;
+    text-align: left;
+}
+form input{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form #contact_buttons{
-    text-align: center;
+    justify-self: center;
 }
 
 span{
