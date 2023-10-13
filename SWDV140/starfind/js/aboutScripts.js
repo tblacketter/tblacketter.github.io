@@ -52,6 +52,8 @@ const displayErrorMsgs = msgs => {
         const lastName = $("#last_name");
         const email = $("#email_address");
         const terms = $("#terms");
+
+        const emailPattern = /^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]+$/;
     
         // create array for error messages
         const msgs = [];
@@ -65,8 +67,14 @@ const displayErrorMsgs = msgs => {
         if(lastName.value == ""){
                 msgs[msgs.length] = "Please enter your last name.";
         }
-        if (email.value == "") {
+        if (email.value == "" || !emailPattern.test(email)) {
+
+            if(email.value == ""){
                 msgs[msgs.length] = "Please enter an email address.";
+            }else{
+                msgs[msgs.length] = "Please enter a valid email address.";
+            }
+                
         } 
         if (!terms.checked) {
                 msgs[msgs.length] = "Please accept the terms."; 

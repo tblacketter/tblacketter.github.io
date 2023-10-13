@@ -15,6 +15,11 @@
 "use strict";
 
 //Gathers user input for number of stars, hides the opening text, sends data to createStar function
+
+const message = $("#datetime");
+const date = new Date();
+message.text(date.toString());
+
 function generate(){
     
     document.getElementById("mainBanner").style.display = "none";
@@ -38,3 +43,5 @@ function createStars(numStars){
 function hideContent(){
     document.getElementById("starBanner").style.display = "none";
 }
+
+

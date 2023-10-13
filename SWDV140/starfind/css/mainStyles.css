@@ -1,14 +1,13 @@
 /*********************************************************************
 ***
 *Original Author: Teryn Blacketter                                   
-*Date Created: 09/16/2023                                      
-*Version: 0.0                                               
-*Date Last Modified: 09/17/2023                             
+*Date Created: 10/11/2023                                      
+*Version: 0.0                                              
+*Date Last Modified: 10/11/2023                             
 *Modified by: Teryn Blacketter                                         
 *Modification log:                                  
 ***
-        Version 0.0 - Created the file and added the css to match the theme of the website 
-        Version 0.1 - Added more css for the faqs and newsletter portions so the followed the website theme
+        Version 0.0 - Created the file and transfered over all of the main styling from the other css files 
 
 ******************************************************************** */
 
@@ -35,16 +34,13 @@ header{
 main{
     text-align: center;
     color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: #252629;
-    padding: 5px;
-    max-width: 70%;
-    align-self: center;
-    border: 5px solid black;
-    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-style: solid;
+    border-color: black;
 }
 
 footer{
@@ -94,60 +90,6 @@ nav a{
     cursor: pointer;
 }
 
-form{
-    color: black;
-    background-color: gray;
-    max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 10px;
-    align-content: left;
-    text-align: left;
-    border: 3px solid black;
-}
-
-form div{
-    padding: 5px;
-}
-
-form #contact_buttons{
-    text-align: center;
-}
-
-span{
-    color: red;
-}
-
-#faqs{
-    color: black;
-    background-color: gray;
-    max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 10px;
-    border: 3px solid black;
-}
-
-#faqs h2{
-    cursor: pointer;
-}
-
-#faqs a{
-    text-decoration: none;
-    color: black;
-}
-
-#faqs a:focus, #faqs a:hover { 
-	color: white; 
-}
-
-#faqs div {
-    display: none;
-}
-#faqs div.open {
-    display: block;
-}
-
 
 /*************************** Tablet ***************************/	
 @media screen and (min-width:480px) {
@@ -175,18 +117,20 @@ span{
     h3{
         font-size: .9em;
     }
+
 }
 
 /*************************** Computer - Laptop ***************************/
 
 @media screen and (min-width:800px) {
 
+
 }
 
 /*************************** Computer - Desktop ***************************/
 
 @media screen and (min-width:1024px) {
-
+    
     .button{
         background-color: black; /* Black */
         border: none;
@@ -210,6 +154,5 @@ span{
     h3{
         font-size: 1.2em;
     }
-
 
 }

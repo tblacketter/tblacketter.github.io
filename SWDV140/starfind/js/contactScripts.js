@@ -2,13 +2,14 @@
 ***
 *Original Author: Teryn Blacketter                                   
 *Date Created:  09/16/2023                                     
-*Version: 0.0                                               
-*Date Last Modified: 09/17/2023                             
+*Version: 0.2                                               
+*Date Last Modified: 10/13/2023                             
 *Modified by: Teryn Blacketter                                         
 *Modification log:                                  
 ***
         Version 0.0 - Created the file and implemented the basics for the form scripts, functions and event listener
         version 0.1 - Polished the form scripts and made sure all the basics were working, changed the submit button so .submit() would work
+        version 0.2 - Added the regex validation for email and phone
 
 
 ******************************************************************** */
@@ -50,6 +51,10 @@ const displayErrorMsgs = msgs => {
         const lastName = $("#last_name");
         const email = $("#email_address");
         const phone = $("#phone");
+
+        const emailPattern = /^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]+$/;
+        const phonePattern = /^\d{3}-\d{3}-\d{4}$/;
+
     
         // create array for error messages
         const msgs = [];
@@ -63,11 +68,25 @@ const displayErrorMsgs = msgs => {
         if(lastName.value == ""){
                 msgs[msgs.length] = "Please enter your last name.";
         }
-        if (email.value == "") {
-                msgs[msgs.length] = "Please enter an email address.";
+        if (email.value == "" || !emailPattern.test(email)) {
+
+                if(email.value == "")
+                {
+                        msgs[msgs.length] = "Please enter an email address."; 
+                        
+                }
+                else{
+                        msgs[msgs.length] = "Please enter a valid email.";     
+                }
         } 
-        if (phone.value == "") {
-                msgs[msgs.length] = "Please enter a mobile phone number."; 
+        if (phone.value == "" || !phonePattern.test(phone)) {
+
+                if(phone.value == ""){
+                        msgs[msgs.length] = "Please enter a mobile phone number.";
+                        
+                }else{
+                        msgs[msgs.length] = "Please enter a mobile phone number in the NNN-NNN-NNNN format";
+                }    
         } 
 
         // submit the form or notify user of errors

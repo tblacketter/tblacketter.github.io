@@ -34,9 +34,17 @@ header{
 }
 
 main{
-    text-align: center;
     color: white;
-    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#mainbanner{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -67,15 +75,19 @@ footer h2{
 
 nav{
     justify-self: center;
-    align-items: center;
-    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: wrap;
 }
 
 nav a{
     display: block;
     margin: .5em;
+}
+
+.navLogo{
+    align-self: center;
+    margin-left: 10px;
 }
 
 .button{
@@ -105,6 +117,10 @@ nav a{
     display: none;
 }
 
+#datetime{
+    margin-top: 20px;
+    font-size: large;
+}
 /*************************** Tablet ***************************/	
 @media screen and (min-width:480px) {
 
@@ -145,88 +161,22 @@ nav a{
 
 @media screen and (min-width:1024px) {
     
-    header{
-        background-color: #252629;
-        border-color: black;
-        border-style: solid;
-        display: flex;
-        align-items: center;
-    }
-    
-    main{
-        text-align: center;
-        color: white;
-        margin: 10px;
-    }
-    
-    footer{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #252629;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    footer h2{
-        text-align: center;
-        color: white;
-    }
-    
-    nav{
-        justify-self: center;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    nav a{
-        display: block;
-        margin: .5em;
-    }
-    
-    .navLogo {
-        justify-self: left;
-        margin: 5px;
-    }
-    
     .button{
-        background-color: black; /* Black */
-        border: none;
-        color: whitesmoke;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 8px;
-    }
-    
-    .button:hover{
-        background-color: gray;
-        cursor: pointer;
-    }
-    
-    .banner{
-        background-color: #252629;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    #starBanner{
-        display: none;
-    }
 
+        padding: 15px 32px;
+        font-size: 16px;
+    }
+    
     h1{
-        font-size: 1em;
+        font-size: 1.8em;
     }
     
     h2 {
-        font-size: .8em;
+        font-size: 1.5em;
     }
     
     h3{
-        font-size: .6em;
+        font-size: 1.2em;
     }
 
 }
