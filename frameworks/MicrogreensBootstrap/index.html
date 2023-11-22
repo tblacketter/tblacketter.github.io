@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary">
+    <header>
+        <div class="bg-success p-3 text-center text-white">
+            <h1>Welcome to MicrogreensRUs</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark p-2 navbar-dark h4 btn-secondary">
+            <div class="container-fluid">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="index.html" class="nav-link active btn btn-secondary btn-lg mx-2">Home</a></li>
+                    <li class="nav-item"><a href="#plants" class="nav-link active btn btn-secondary btn-lg mx-2">Plants</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link active btn btn-secondary btn-lg mx-2">Products</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link active btn btn-secondary btn-lg mx-2">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link active btn btn-secondary btn-lg mx-2">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <h3 class="text-center text-white m">Our goal is to provide basic information about microgreens so that anyone can start growing them for themselves!</h3>
+    </div>
+
+    <div class="container mt-5" id="plants">
+        <h2 class="text-center text-dark">Varieties of Plants</h2>
+
+        <div class="row mt-4">
+            <div class="col-sm-4">
+                <img class="img-fluid" src="media/brocollisprouts.jpg" alt="">
+                <h4 class="text-center text-white">Brocolli Sprouts</h4>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="media/peashoots.jpg" alt="">
+                <h4 class="text-center text-white">Pea Sprouts</h4>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="media/sunflower.jpg" alt="">
+                <h4 class="text-center text-white">Sunflower Sprouts</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4" id="products">
+        <h3 class="text-center text-dark">Products you'll need to get started:</h3>
+        <table class="table table-dark mt-4">
+            <thead class="h4">
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody class="h5">
+                <tr>
+                    <td>Light</td>
+                    <td>24" UV</td>
+                    <td>$24.99</td>
+                    <td>#</td>
+                </tr>
+
+                <tr>
+                    <td>Tray</td>
+                    <td>Black Growing Tray</td>
+                    <td>$15.99</td>
+                    <td>#</td>
+                </tr>
+
+                <tr>
+                    <td>Rack</td>
+                    <td>Black Rack 4' x 8'</td>
+                    <td>$129.99</td>
+                    <td>#</td>
+                </tr>
+
+                <tr>
+                    <td>Seeds</td>
+                    <td>Brocolli Seeds</td>
+                    <td>$2.99</td>
+                    <td>#</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="conatiner mt-4 text-white" id="about">
+        <h2 class="text-center text-dark">About Us</h2>
+        <h3 class="container text-center text-white">We are a small team of individuals that find alot of enjoyment from growing clean, nutrient dense food. 
+            We are located in Boise Idaho and sell at alot of farmers markets around town.
+            Stop by and say hello! We love meeting all sorts of individuals and talking about sustainable agriculture!
+        </h3>
+
+    </div>
+
+    <div class="container mt-4 text-white" id="contact">
+        <h2 class="text-center text-dark">Contact Us</h2>
+        <h3 class="text-center">Just leave us you email and reason for contacting us and we will reach out to you as soon as we can!</h3>
+
+        <form>
+            <div class="form-group mt-2">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group mt-2">
+              <label for="exampleFormControlSelect1">Reason fo contact (Dropdown)</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Information</option>
+                <option>Questions about our process</option>
+                <option>Interested in buying product</option>
+                <option>Wish us well!</option>
+              </select>
+            </div>
+
+            <div class="form-group mt-2">
+              <label for="exampleFormControlTextarea1">Comments</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <input type="button" value="Submit" class="btn btn-success mt-2 text-center">
+          </form>
+    </div>
+
+</body>
+
+<footer class="conatiner bg-success text-center text-white p-4 mt-4">
+    <h3>MicrogreensRUs</h3>
+    <h4>555-555-5555</h4>
+</footer>
+</html>
+
+
